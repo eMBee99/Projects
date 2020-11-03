@@ -1,0 +1,21 @@
+
+#clicked  .on {display: block;}
+#clicked  .off {display: none;}
+
+#clicked:target  .on {display: none;}
+#clicked:target  .off {display: block;}
+
+.menu {
+    background-color: yellow;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 00%;
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+
+

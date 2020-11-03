@@ -1,0 +1,51 @@
+h1 {
+    color: green;
+     
+}
+.sideBar {
+    float: right;
+    background-color: darkolivegreen;
+    width: 150px;
+    padding: 5px;
+}
+.sideBar > ul li{
+    list-style: none;
+}
+p {
+    color: red;
+    background-color: darkblue;
+    display: block;
+}
+.white {
+    list-style: none;
+    color: white;
+    background-color: darkolivegreen;
+}
+.list {
+    color: blueviolet;
+    font-weight: bold;
+}
+#IDlist {
+   
+    color: blue;
+}
+.myButton input {
+border-radius: 20px;
+border: 3px solid #666;
+box-shadow: 3px 3px 3px #000;
+margin-bottom: 10px;
+background-color: darkblue;
+padding: 3px;
+text-transform: uppercase;
+color: white;
+}
+.navBar > li{
+    list-style: none;
+    background-color: lightgreen;
+    padding: 10px;
+    float: left;
+    width: 30%;
+}
+.navbar > a{
+color: red
+}

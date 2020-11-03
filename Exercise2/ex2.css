@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.csym018 {
+background-color: lightblue;
+display: block;
+width: 50%;
+height: 33%;
+float: left;
+}
+.csym019 {
+background-color: yellow;
+display: block;
+width: 50%;
+height: 33%;
+float: right;
+}
+.csym014 {
+background-color: lightgreen;
+display: block;
+width: 50%;
+height: 33%;
+float: right;
+}
+.csym017 {
+    background-color: lightsalmon;
+    display: block;
+    width: 50%;
+    height: 33%;
+    float: left;
+}
+.csym026 {
+    background-color: slateblue;
+    display: block;
+    width: 50%;
+    height: 33%;
+    float: right;
+    }
+.csym020 {
+    background-color: turquoise;
+    display: block;
+    width: 50%;
+    height: 33%;
+    float: left;
+    }
