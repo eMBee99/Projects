@@ -28,26 +28,26 @@ z-index: -1;
     align-items: center;
     justify-content: center;
     text-align: center;
-   
 }
 
 .welcome_container h1 {
     width: 70vw;
-    font-size: 5em;
-    z-index: 1;
+    font-size: 5.6vw;
 }
 .welcome_container p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5vh;
 }
 
 .navbar {
 margin-left: 5px;
 position: fixed;
 transform-origin: left top;
-transform:rotate(-90deg) translateX(-100%);
+transform:rotate(-90deg) translateX(-93vh);
 
 }
+
+
 .navbar ul:hover li {
     
     opacity: 0.6;
@@ -62,8 +62,8 @@ transform:rotate(-90deg) translateX(-100%);
     color: #fff;
     
     text-decoration: none;
-    font-size: 1.8em;
-    padding-right: 2.8em;
+    font-size: 3vh;
+    padding-right: 7.2vh;
 }
 .navbar ul li:hover {
     opacity: 1;
@@ -73,11 +73,14 @@ transform:rotate(-90deg) translateX(-100%);
     color: #ff0;
 }
 
+main div a {
+    font-size: 1.45vw;
+}
 
 .portfolio_container {
     position: fixed;
-    top: 23%;
-    left: 43%;
+    top: 21vh;
+    left: 43vw;
     color: #fff;
 
 }
@@ -85,6 +88,7 @@ transform:rotate(-90deg) translateX(-100%);
     text-decoration: none;
     color: #fff;
     text-align: center;
+    
 }
 
 .portfolio_container a:hover {
@@ -94,19 +98,19 @@ transform:rotate(-90deg) translateX(-100%);
 .portfolio_container a:hover::before {
     content: "";
     display: block;
-    width: 40vw;
+    width: 39vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
     position: absolute;
-    right: 105%;
+    right: 15vw;
     top: 60%;
     
 }
 
 .contact_container {
     position: fixed;
-    top: 39.5%;
-    left: 84%;
+    top: 38vh;
+    left: 84vw;
     color: #fff;
     
 
@@ -122,18 +126,18 @@ transform:rotate(-90deg) translateX(-100%);
 .contact_container a:hover::before {
     content: "";
     display: block;
-    width: 81vw;
+    width: 81.5vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
     position: absolute;
-    right: 105%;
+    right: 13vw;
     top: 60%;
     z-index: -1;
 }
 .cv_container {
     position: fixed;
-    top: 61%;
-    left: 10%;
+    top: 60vh;
+    left: 10vw;
     color: #fff;
 
 }
@@ -152,15 +156,15 @@ transform:rotate(-90deg) translateX(-100%);
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
     position: absolute;
-    right: 105%;
+    right: 25vw;
     top: 60%;
     
 }
 
 .report_container {
     position: fixed;
-    top: 83%;
-    left: 50%;
+    top: 82.5vh;
+    left: 50vw;
     color: #fff;
 
 }
@@ -175,11 +179,11 @@ transform:rotate(-90deg) translateX(-100%);
 .report_container a:hover::before {
     content: "";
     display: block;
-    width: 46vw;
+    width: 48vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
     position: absolute;
-    right: 105%;
-    top: 60%;
+    right: 13vw;
+    top: 45%;
     
 }
