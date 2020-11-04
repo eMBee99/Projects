@@ -21,20 +21,24 @@ z-index: -1;
 
 .welcome_container {
     
-    color: #fff;
+    
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    z-index: 1;
 }
 
 .welcome_container h1 {
+    color:rgb(180, 17, 52);
     width: 70vw;
     font-size: 5.6vw;
+    z-index: 1;
 }
 .welcome_container p {
+    color: rgb(230, 222, 222);
     font-family: 'Roboto', sans-serif;
     font-size: 2.5vh;
 }
@@ -114,23 +118,25 @@ main div a:hover {
     top: 38vh;
     left: 84vw;
     color: #fff;
+    
 }
 .contact_container a {
     text-decoration: none;
     color: #fff;
     text-align: center;
+    
 }
 
 .contact_container a:hover::before {
     content: "";
     display: block;
-    width: 81.5vw;
+    width: 81vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
     position: absolute;
     right: 13vw;
     top: 60%;
-    z-index: -1;
+    
 }
 
 .cv_container {
