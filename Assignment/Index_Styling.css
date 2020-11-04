@@ -50,7 +50,9 @@ transform-origin: left top;
 transform:rotate(-90deg) translateX(-93vh);
 }
 
-
+.navbar div {
+    display: none;
+}
 .navbar ul:hover li {
     
     opacity: 0.6;
