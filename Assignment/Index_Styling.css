@@ -48,7 +48,6 @@ margin-left: 5px;
 position: fixed;
 transform-origin: left top;
 transform:rotate(-90deg) translateX(-93vh);
-
 }
 
 
@@ -84,7 +83,6 @@ main div a:hover {
     font-size: 1.5vw;
     color: rgba(255, 255, 0, 0.555);
 }
-
 
 .portfolio_container {
     position: fixed;

@@ -36,15 +36,16 @@ z-index: -1;
 }
 
 .navbar {
-    margin-left: -8%;
+    
     position: fixed;
-    transform-origin: left top;
-    transform:rotate(-90deg) translateX(-65vh);
+    transform-origin: left ;
+    
 }
 .navbar ul li {
-    display: inline;
-    float: left;
+    padding: 1.75em;
     list-style: none;
+    transform-origin: bottom left;
+    transform:rotate(-40deg) ;
 }
 .navbar ul li a {
     opacity: 1;
@@ -53,6 +54,17 @@ z-index: -1;
     text-decoration: none;
     font-size: 1.5em;
     padding-right: 0.8em;
+}
+.navbar ul:hover li {
+    
+    opacity: 0.6;
+}
+.navbar ul li:hover {
+    opacity: 1;
+}
+.navbar ul a:hover {
+    
+    color: #ff0;
 }
 
 .burger_menu {
@@ -74,7 +86,7 @@ z-index: -1;
     height: .3em;
     background: white;
 }
- 
+
 
 .portfolio_container {
     display: none;
