@@ -84,8 +84,8 @@ z-index: -1;
     transform: translatey(120%);
 }
 
-.navbar .toggler:checked + .arrow_menu 
-{
+.navbar .toggler:checked + .arrow_menu {
+
     transform: rotate(180deg);
 }
 .navbar .toggler:checked ~ ul  li {
