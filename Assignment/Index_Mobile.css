@@ -1,7 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
 h1 {
     font-family: 'Permanent Marker', cursive;
 }
-
 .background{
 content: "";
 background: url(Images/Abstract_Background.jpg) no-repeat center ;
@@ -13,7 +16,6 @@ width: 100%;
 height: 100%;
 z-index: -1;
 }
-
 .welcome_container {
     
     color: rgba(255, 255, 0, 0.555);
@@ -23,8 +25,7 @@ z-index: -1;
     align-items: center;
     justify-content: center;
     text-align: center;
-   }
-
+}
 .welcome_container h1 {
     width: 70vw;
     font-size: 4em;
@@ -34,30 +35,33 @@ z-index: -1;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
 }
-.sidebar {
-    display: none;
-}
 .navbar {
-    
+    margin-left: 5px;
     position: fixed;
-    transform-origin: left ;
+    transform-origin: left top;
+    transform:rotate(-90deg) translateX(-93vh);
     
-}
-.navbar ul li {
-    padding: 1.75em;
-    list-style: none;
-    transform-origin: bottom left;
-    /* transform: translateX(-10vw) rotate(-90deg); */
+    }
+    
+    .navbar ul:hover li {
+        
+        opacity: 0.6;
+    }
+    .navbar ul li {
+        display: inline;
+        float: left;
+        list-style: none;
+        transform: translateY(-100%); 
     transition: transform 0.5s ease-in;
-}
-.navbar ul li a {
-    opacity: 1;
-    color: #fff;
-    
-    text-decoration: none;
-    font-size: 1.5em;
-    padding-right: 0.8em;
-}
+    }
+    .navbar ul li a {
+        opacity: 1;
+        color: #fff;
+        
+        text-decoration: none;
+        font-size: 3vh;
+        padding-right: 7.2vh;
+    }
 .navbar ul:hover li {
     
     opacity: 0.6;
@@ -69,7 +73,7 @@ z-index: -1;
     
     color: #ff0;
 }
-.navbar .click {
+/* .navbar .click {
     position: relative;
     top: 1.2vh;
     width: 3.25em;
@@ -77,32 +81,31 @@ z-index: -1;
     cursor: pointer;
     opacity: 0;
     z-index: 2;
-}
-
-
-.burger_menu {
+} */
+.arrow_menu {
     position: absolute;
-    top: 3%;
-    left: 3%;
-    width: 2.25em;
-    height: 1.3em;
-    border-top: .4em solid white;
-    border-bottom: .4em solid white;
-    border-radius: .4em;
+    top: 5vh;
+    right: 2vw;
+    
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-top: 2vw solid  #ff0;
+    transform: translate(0, -100%); 
+    transition: transform 0.5s ease-in;
 }
-.burger_menu:before {
-    content: "";
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 100%;
-    height: .3em;
-    background: white;
-}
-.burger_menu:checked + ul li {
-    transform: translateX(00vw)  rotate(00deg);
 
+#clicked  .on > ul {
+   
+    
+    
 }
+#clicked  .off {display: none;}
+
+#clicked:target  .on > ul { transform: translateY(-100%); }
+#clicked:target  .off {display: block;}
+
+
+
 
 
 
