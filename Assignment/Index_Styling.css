@@ -178,3 +178,6 @@ main div a:hover {
     right: 13vw;
     top: 45%;
 }
+.navbar .toggler {
+    display: none;
+}
