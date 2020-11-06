@@ -1,35 +1,32 @@
 body {
-    background-color: #0a1a36;
+    background: url(images/Abstract_Background.jpg) no-repeat center ;
     z-index: 0;
-    
 }
 header h1 {
     color: rgb(206, 200, 200);
-    text-align: center;
+    position: absolute;
+    left: 45%;
 }
 h2 {
    color: #fff; 
    text-align: center;
 }
 section {
-    background-color: #444444;
+    background-color: #44444486;
     float: left;
     align-items: center;
     padding: 3%;
     margin: 5%;
-    
 }
 .bio {
     color:#f4d47c;
     width: 17vw;
     height: 35vh;
-    
 }
 .cv_description {
     color:#f4d47c;
     width: 45vw;
     height: 100vh;
-    
 }
 
 .navbar {
