@@ -1,0 +1,28 @@
+.navbar {
+    margin-left: 5px;
+    position: fixed;
+    transform-origin: left top;
+    transform:rotate(-90deg) translateX(-93vh);
+    } 
+    .navbar ul:hover li {  
+        opacity: 0.6;
+    }
+    .navbar ul li {
+        display: inline;
+        float: left;
+        list-style: none;
+    }
+    .navbar ul li a {
+        opacity: 1;
+        color: #fff;
+        text-decoration: none;
+        font-size: 3vh;
+        padding-right: 7.2vh;
+    }
+    .navbar ul li:hover {
+        opacity: 1;
+    }
+    .navbar ul a:hover {  
+        color: #ff0;
+    }
+    
