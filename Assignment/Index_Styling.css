@@ -91,20 +91,17 @@ main div a:hover {
     text-align: center;
     
 }
-
-
 .portfolio_container a:hover::before {
     content: "";
     display: block;
     width: 39vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
-    position: absolute;
-    right: 15vw;
-    top: 60%;
+    position: fixed;
+    left: 3%;
+    top: 27vh;
     
 }
-
 .contact_container {
     position: fixed;
     top: 38vh;
@@ -118,19 +115,17 @@ main div a:hover {
     text-align: center;
     
 }
-
 .contact_container a:hover::before {
     content: "";
     display: block;
     width: 81vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
-    position: absolute;
-    right: 13vw;
-    top: 60%;
+    position: fixed;
+    left: 3%;
+    top: 44vh;
     
 }
-
 .cv_container {
     position: fixed;
     top: 60vh;
@@ -143,18 +138,16 @@ main div a:hover {
     color: #fff;
     text-align: center;
 }
-
 .cv_container a:hover::before {
     content: "";
     display: block;
     width: 6.5vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
-    position: absolute;
-    right: 25vw;
-    top: 60%;   
+    position: fixed;
+    left: 3%;
+    top: 66vh;   
 }
-
 .report_container {
     position: fixed;
     top: 82.5vh;
@@ -167,16 +160,15 @@ main div a:hover {
     color: #fff;
     text-align: center;
 }
-
 .report_container a:hover::before {
     content: "";
     display: block;
     width: 48vw;
     height: 8px;
     background:  rgba(255, 255, 0, 0.555);
-    position: absolute;
-    right: 13vw;
-    top: 45%;
+    position: fixed;
+    left: 3%;
+    top: 88.5vh;
 }
 .navbar .toggler {
     display: none;
