@@ -1,11 +1,34 @@
 body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
     z-index: 0;
+    display: grid;
+    
+    grid-template-rows: 5% 90% 5%;
+    grid-template-columns: auto;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "footer footer footer";
+    
+}
+main {
+    margin-top: 5%;
+    grid-area: main;
+}
+header {
+    margin-top: 5%;
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+    color: white;
+    position: fixed;
+    bottom: 1vh;
+    left: 1vw;
 }
 header h1 {
-    color: rgb(206, 200, 200);
-    position: absolute;
-    left: 45%;
+    color: #fff;
+    text-align: center;
+
 }
 
 h2 {
@@ -29,36 +52,44 @@ section {
     width: 45vw;
     height: 100vh;
 }
-
-.navbar {
-    left: 0;
+nav {
+    grid-area: nav;
     position: fixed;
-    transform-origin: left top;
-    transform:rotate(-90deg) translateX(-93vh);
-    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.2);
+    left: 0;
+    top: 0;
+    width: 100vw;
 }
-.navbar ul:hover li {
+nav ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+nav ul:hover li {
+
     opacity: 0.6;
 }
-.navbar ul li {
+
+nav ul li {
     display: inline;
     float: left;
     list-style: none;
+    text-align: center;
+    
 }
-.navbar ul li a {
-    opacity: 1;
-    color: #fff;     
+nav ul li a {
+    color: #fff;
     text-decoration: none;
     font-size: 3vh;
-    padding-right: 7.2vh;
+   
 }
-.navbar ul li:hover {
+nav ul li:hover {
     opacity: 1;
 }
-.navbar ul a:hover {
-        
+nav ul a:hover {
+
     color: #ff0;
 }
-.navbar .toggler {
+nav .toggler {
     display: none;
 }
