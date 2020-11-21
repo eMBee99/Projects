@@ -1,7 +1,8 @@
 * {
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
+
 h1 {
     font-family: 'Permanent Marker', cursive;
 }
@@ -16,8 +17,8 @@ height: 100%;
 z-index: -1;
 }
 .welcome_container {
-    
-    
+
+
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -38,35 +39,33 @@ z-index: -1;
     font-size: 2.5vh;
 }
 
-.navbar {
-margin-left: 5px;
-position: fixed;
-transform-origin: left top;
-transform:rotate(-90deg) translateX(-93vh);
-}
 
-.navbar ul:hover li {
-    
+nav ul:hover li {
+
     opacity: 0.6;
 }
-.navbar ul li {
+nav ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+nav ul li {
     display: inline;
     float: left;
     list-style: none;
+    text-align: center;
+   
 }
-.navbar ul li a {
-    opacity: 1;
+nav ul li a {
     color: #fff;
-    
     text-decoration: none;
     font-size: 3vh;
-    padding-right: 7.2vh;
+   
 }
-.navbar ul li:hover {
+nav ul li:hover {
     opacity: 1;
 }
-.navbar ul a:hover {
-    
+nav ul a:hover {
+
     color: #ff0;
 }
 
@@ -80,7 +79,7 @@ main div a:hover {
 
 .portfolio_container {
     position: fixed;
-    top: 21vh;
+    top: 18vh;
     left: 43vw;
     color: #fff;
 
@@ -89,47 +88,27 @@ main div a:hover {
     text-decoration: none;
     color: #fff;
     text-align: center;
-    
+
 }
-.portfolio_container a:hover::before {
-    content: "";
-    display: block;
-    width: 39vw;
-    height: 8px;
-    background:  rgba(255, 255, 0, 0.555);
-    position: fixed;
-    left: 3%;
-    top: 27vh;
-    
-}
+
 .contact_container {
     position: fixed;
     top: 38vh;
     left: 84vw;
     color: #fff;
-    
+
 }
 .contact_container a {
     text-decoration: none;
     color: #fff;
     text-align: center;
-    
+
 }
-.contact_container a:hover::before {
-    content: "";
-    display: block;
-    width: 81vw;
-    height: 8px;
-    background:  rgba(255, 255, 0, 0.555);
-    position: fixed;
-    left: 3%;
-    top: 44vh;
-    
-}
+
 .cv_container {
     position: fixed;
-    top: 60vh;
-    left: 10vw;
+    top: 63vh;
+    left: 6vw;
     color: #fff;
 
 }
@@ -138,16 +117,7 @@ main div a:hover {
     color: #fff;
     text-align: center;
 }
-.cv_container a:hover::before {
-    content: "";
-    display: block;
-    width: 6.5vw;
-    height: 8px;
-    background:  rgba(255, 255, 0, 0.555);
-    position: fixed;
-    left: 3%;
-    top: 66vh;   
-}
+
 .report_container {
     position: fixed;
     top: 82.5vh;
@@ -160,16 +130,14 @@ main div a:hover {
     color: #fff;
     text-align: center;
 }
-.report_container a:hover::before {
-    content: "";
-    display: block;
-    width: 48vw;
-    height: 8px;
-    background:  rgba(255, 255, 0, 0.555);
-    position: fixed;
-    left: 3%;
-    top: 88.5vh;
-}
-.navbar .toggler {
+
+nav .toggler {
     display: none;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 1vh;
+    left: 1vw;
 }
