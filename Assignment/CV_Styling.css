@@ -1,29 +1,32 @@
 body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
-    z-index: 0;
-    display: grid;
     
-    grid-template-rows: 5% 90% 5%;
+    
+    
+    grid-template-rows: 5% 93% 2%;
     grid-template-columns: auto;
     grid-template-areas: "header header header"
                          "main main main"
-                         "footer footer footer";
+                         "footer . .";
     
 }
 main {
-    margin-top: 5%;
+    margin: 5%;
+    display: grid;
     grid-area: main;
+    grid-template-columns: 30% 70%;
 }
 header {
     margin-top: 5%;
+    display: grid;
     grid-area: header;
 }
 footer {
     grid-area: footer;
     color: white;
-    position: fixed;
-    bottom: 1vh;
-    left: 1vw;
+    display: grid;
+    
+    
 }
 header h1 {
     color: #fff;
@@ -37,20 +40,24 @@ h2 {
 }
 section {
     background-color: #44444486;
-    float: left;
+    /* float: left; */
     align-items: center;
-    padding: 3%;
-    margin: 5%;
-}
-.bio {
+    padding: 5%;
+    /* margin: 5%; */
     color:#f4d47c;
-    width: 17vw;
-    height: 35vh;
+
 }
+
+.about_me {
+    
+    width: 100%;
+    height: 100%;
+}
+
 .cv_description {
-    color:#f4d47c;
+    margin-left: 10%;
     width: 45vw;
-    height: 100vh;
+    height: 100%;
 }
 nav {
     grid-area: nav;
