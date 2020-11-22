@@ -40,7 +40,7 @@ z-index: -1;
 }
 
 nav {
-    
+    grid-area: nav;
     position: fixed;
     background-color: rgba(128, 128, 128, 0.2);
     left: 0;
@@ -79,14 +79,6 @@ nav ul a:hover {
 }
 nav .toggler {
     display: none;
-}
-
-main div a {
-    font-size: 1.45vw;
-}
-main div a:hover {
-    font-size: 1.5vw;
-    color: rgba(255, 255, 0, 0.555);
 }
 
 .portfolio_container {

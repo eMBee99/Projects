@@ -3,38 +3,45 @@ body {
     z-index: 0;
 }
 
-.navbar {
-    margin-left: 5px;
+nav {
+    grid-area: nav;
     position: fixed;
-    transform-origin: left top;
-    transform:rotate(-90deg) translateX(-93vh);
-    }
+    background-color: rgba(128, 128, 128, 0.2);
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+nav ul:hover li {
+
+    opacity: 0.6;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    list-style: none;
+    text-align: center;
     
-    .navbar ul:hover li {
-        
-        opacity: 0.6;
-    }
-    .navbar ul li {
-        display: inline;
-        float: left;
-        list-style: none;
-    }
-    .navbar ul li a {
-        opacity: 1;
-        color: #fff;
-        
-        text-decoration: none;
-        font-size: 3vh;
-        padding-right: 7.2vh;
-    }
-    .navbar ul li:hover {
-        opacity: 1;
-    }
-    .navbar ul a:hover {
-        
-        color: #ff0;
-    }
-    .navbar .toggler {
-        display: none;
-    }
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3vh;
+   
+}
+nav ul li:hover {
+    opacity: 1;
+}
+nav ul a:hover {
+
+    color: #ff0;
+}
+nav .toggler {
+    display: none;
+}
     
