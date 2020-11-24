@@ -10,8 +10,8 @@ body {
                          "footer . .";
     grid-gap: 5%;
     
-
 }
+
 header {
     margin-top: 3%;
     color: white;
@@ -26,7 +26,6 @@ main {
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 50% 50%;
     text-align: center;
-    
     justify-items: center;
 }
 footer {
