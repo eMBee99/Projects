@@ -1,9 +1,7 @@
 body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
-    
-    
-    
-    grid-template-rows: 5vh 93vh 2vh;
+    display: grid;
+    grid-template-rows: 5% 93% 2%;
     grid-template-columns: auto;
     grid-template-areas: "header header header"
                          "main main main"
@@ -15,6 +13,8 @@ main {
     display: grid;
     grid-area: main;
     grid-template-columns: 30% 70%;
+    color: #fff;
+    text-align: center
 }
 header {
     margin-top: 5%;
@@ -27,11 +27,7 @@ footer {
     
     
 }
-header h1 {
-    color: #fff;
-    text-align: center;
 
-}
 
 h2 {
    color: #fff; 
@@ -42,10 +38,10 @@ h3 {
 }
 section {
     background-color: #44444486;
-    /* float: left; */
+   
     align-items: center;
     padding: 5%;
-    /* margin: 5%; */
+    
     color:#f4d47c;
 
 }

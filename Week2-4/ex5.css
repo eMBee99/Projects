@@ -98,6 +98,19 @@ grid-area: header;
     grid-area: aside;
     
 }
+form {
+    margin-left: 10%;
+    display: grid;
+    width: 600px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    align-items: center;
+    grid-gap: 0.5em;
+
+}
+/* .submit {
+    grid-column: 2;
+} */
 
 .footer {
     background-color:#542437 ;

@@ -1,7 +1,58 @@
 body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
     z-index: 0;
+    display: grid;
+    height: 90vh;
+    grid-template-rows: 5% 90% 5%;
+    grid-template-columns: auto;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "footer . .";
+    grid-gap: 5%;
+    
+
 }
+header {
+    margin-top: 3%;
+    color: white;
+    grid-area: header;
+    text-align: center
+}
+
+main {
+    margin-top: 3%;
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    
+    justify-items: center;
+}
+footer {
+    color: white;
+    grid-area: footer;
+}
+
+section {
+    color: white;
+    background-color:  #44444486;
+    height: 90%;
+    width: 90%;
+    margin: 3%;
+}
+h2 {
+    text-align: center
+}
+
+
+
+
+
+
+
+
+
 
 nav {
     grid-area: nav;
@@ -20,7 +71,6 @@ nav ul:hover li {
 
     opacity: 0.6;
 }
-
 nav ul li {
     display: inline;
     float: left;
