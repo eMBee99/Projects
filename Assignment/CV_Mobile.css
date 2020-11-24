@@ -37,7 +37,6 @@ footer {
     display: grid;
 }
 
-
 h2 {
    color: #fff; 
    text-align: center;
@@ -79,11 +78,9 @@ nav {
     left: 0;
     top: 0;
     width: 100%;
-    
 }
 
 nav ul:hover li {
-
     opacity: 0.6;
 }
 nav ul {
@@ -92,31 +89,26 @@ nav ul {
     padding: 2%;
     background-color: rgba(128, 128, 128, 0.2);
     transform: translateY(-200%);
-   
 }
 nav ul li {
     display: inline;
     float: left;
     list-style: none;
     text-align: center;
-    
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: bold;
-    
 }
 nav ul:hover li {
-    
     opacity: 0.6;
 }
 nav ul li:hover {
     opacity: 1;
 }
 nav ul a:hover {
-    
     color: #ff0;
 }
 nav .toggler {
@@ -130,14 +122,13 @@ nav .toggler {
     z-index: 2;
 }
 nav .toggler:checked {
-    transform: translateY(25%);
+    transform: translateY(100%);
    
     background-color: rgba(128, 128, 128, 0.2);
 }
 nav .toggler:checked ~ ul{
     transform: translateY(-22%);
     transition: transform 0.5s ease-in;
-    
 }
 
 nav .toggler:checked + .arrow_menu {
@@ -147,8 +138,8 @@ nav .toggler:checked + .arrow_menu {
 
 .arrow_menu {
     position: fixed;
-    top: 5%;
-    right: 5%;
+    top: 8%;
+    right: 3%;
     border-left: 2vw solid transparent;
     border-right: 2vw solid transparent;
     border-top: 4vw solid  #ff0;

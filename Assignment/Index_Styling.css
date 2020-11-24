@@ -53,7 +53,6 @@ nav ul {
 }
 
 nav ul:hover li {
-
     opacity: 0.6;
 }
 
@@ -62,13 +61,11 @@ nav ul li {
     float: left;
     list-style: none;
     text-align: center;
-    
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 3vh;
-   
 }
 nav ul li:hover {
     opacity: 1;
@@ -86,13 +83,14 @@ nav .toggler {
     top: 18vh;
     left: 43vw;
     color: #fff;
-
 }
 .portfolio_container a {
     text-decoration: none;
     color: #fff;
     text-align: center;
-
+}
+.portfolio_container a:hover {
+    color:  rgba(255, 255, 0, 0.555);
 }
 
 .contact_container {
@@ -100,7 +98,6 @@ nav .toggler {
     top: 38vh;
     left: 84vw;
     color: #fff;
-
 }
 .contact_container a {
     text-decoration: none;
@@ -108,18 +105,23 @@ nav .toggler {
     text-align: center;
 
 }
+.contact_container a:hover {
+    color:  rgba(255, 255, 0, 0.555);
+}
 
 .cv_container {
     position: fixed;
     top: 63vh;
     left: 6vw;
     color: #fff;
-
 }
 .cv_container a {
     text-decoration: none;
     color: #fff;
     text-align: center;
+}
+.cv_container a:hover {
+    color:  rgba(255, 255, 0, 0.555);
 }
 
 .report_container {
@@ -127,14 +129,15 @@ nav .toggler {
     top: 82.5vh;
     left: 50vw;
     color: #fff;
-
 }
 .report_container a {
     text-decoration: none;
     color: #fff;
     text-align: center;
 }
-
+.report_container a:hover {
+    color:  rgba(255, 255, 0, 0.555);
+}
 
 
 footer {
