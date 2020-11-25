@@ -40,40 +40,9 @@ z-index: -1;
 }
 
 nav {
-    grid-area: nav;
-    position: fixed;
-    background-color: rgba(128, 128, 128, 0.2);
-    left: 0;
-    top: 0;
-    width: 100vw;
-}
-nav ul {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    display: none;
 }
 
-nav ul:hover li {
-    opacity: 0.6;
-}
-
-nav ul li {
-    display: inline;
-    float: left;
-    list-style: none;
-    text-align: center;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 3vh;
-}
-nav ul li:hover {
-    opacity: 1;
-}
-nav ul a:hover {
-
-    color: #ff0;
-}
 nav .toggler {
     display: none;
 }
