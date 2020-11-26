@@ -19,6 +19,7 @@ header {
 main{
     grid-area: main;
     margin: 5%;
+    margin-top: 7%;
     
 }
 footer {
