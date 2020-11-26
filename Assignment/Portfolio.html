@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Portfolio_Styling.css" media="screen and (min-width: 1024px)">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio_Mobile.css" media="screen and (min-width: 250px) and (max-width: 1023px)" >
+    <link rel="stylesheet" href="Portfolio_Mobile.css" media="screen and (max-height: 700px) and (max-width: 1023px)" >
+    <title>My Portfolio</title>
 </head>
 <body>
     <header>
         <h1>Portfolio</h1>
     </header>
-    <nav class="navbar">
-        
-        <input type="checkbox" class="toggler">
-        <div class="arrow_menu"></div>
+    <nav id="clicked">
+  
+        <a href="#clicked" class="show_nav"></a>
+        <a href="#" class="hide_nav"></a>
       
         <ul >
             <li><a href="Index.html">Home</a></li>

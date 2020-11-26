@@ -17,8 +17,6 @@ height: 100%;
 z-index: -1;
 }
 .welcome_container {
-
-
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -38,12 +36,7 @@ z-index: -1;
     font-family: 'Roboto', sans-serif;
     font-size: 2.5vh;
 }
-
 nav {
-    display: none;
-}
-
-nav .toggler {
     display: none;
 }
 

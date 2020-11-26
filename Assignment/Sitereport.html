@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Report_Styling.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="Report_Styling.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="Report_Mobile.css" media="screen and (min-width: 250px) and (max-width: 1023px)" >
+    <link rel="stylesheet" href="Report_Mobile.css" media="screen and (max-height: 700px) and (max-width: 1023px)" >
+    <title>My Report</title>
 </head>
 <body>
     <header>
         <h1>Web Development Progress Report</h1>
     </header>
-    <nav class="navbar">
-        
-        <input type="checkbox" class="toggler">
-        <div class="arrow_menu"></div>
+    <nav id="clicked">
+  
+        <a href="#clicked" class="show_nav"></a>
+        <a href="#" class="hide_nav"></a>
       
         <ul >
             <li><a href="Index.html">Home</a></li>

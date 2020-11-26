@@ -11,7 +11,7 @@ body {
 }
 header {
     margin-top: 3%;
-    color: white;
+    color: burlywood;
     grid-area: header;
     text-align: center;
     
@@ -37,7 +37,7 @@ section {
 }
 
 nav {
-    grid-area: nav;
+   
     position: fixed;
     background-color: rgba(128, 128, 128, 0.2);
     left: 0;
@@ -74,7 +74,5 @@ nav ul a:hover {
 
     color: #ff0;
 }
-nav .toggler {
-    display: none;
-}
+
     
