@@ -8,27 +8,25 @@ body {
                          ". . footer";
     
 }
+header {
+    margin-top: 3%;
+   
+    grid-area: header;
+    color: #fff;
+    text-align: center
+}
 main {
-    margin: 5%;
+    margin: 3%;
     display: grid;
     grid-area: main;
     grid-template-columns: 30% 70%;
     
 }
-header {
-    margin-top: 5%;
-    display: grid;
-    grid-area: header;
-    color: #fff;
-    text-align: center
-}
 footer {
     grid-area: footer;
     color: white;
     
-    
 }
-
 
 h2 {
    color: #fff; 
@@ -41,9 +39,7 @@ section {
     background-color: #44444486;
     align-items: center;
     padding: 5%;
-    
     color:#f4d47c;
-
 }
 .bio{
     

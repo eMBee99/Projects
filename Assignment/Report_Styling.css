@@ -1,7 +1,41 @@
 body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
     z-index: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5% 93% 2%;
+    grid-template-columns: auto;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         ". . footer";
 }
+header {
+    margin-top: 3%;
+    color: white;
+    grid-area: header;
+    text-align: center;
+    
+}
+main{
+    grid-area: main;
+    margin: 5%;
+    
+}
+footer {
+    color: white;
+    grid-area: footer;
+   
+}
+section {
+    
+    color: #f4d47c;
+    background-color: #44444486;
+    height: 100%;
+    
+    padding: 2%;
+   
+}
+
 nav {
     grid-area: nav;
     position: fixed;
