@@ -1,5 +1,6 @@
 body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
+    background-color: black;
     z-index: 0;
     display: grid;
     height: 90vh;

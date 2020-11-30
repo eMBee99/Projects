@@ -7,7 +7,7 @@ body {
     grid-template-columns: auto;
     grid-template-areas: "header header header"
                          "main main main"
-                         ". . footer";
+                         "footer . .";
 }
 header {
     margin-top: 5%;
@@ -18,7 +18,7 @@ header {
 }
 main{
     grid-area: main;
-    margin-top: 10%;
+    margin-top: 20%;
     
 }
 footer {
@@ -79,9 +79,9 @@ nav ul a:hover {
     position: fixed;
     top: 5%;
     right: 5%;
-    border-left: 1vw solid transparent;
-    border-right: 1vw solid transparent;
-    border-top: 2vw solid  #ff0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 4vw solid  #ff0;
    
     transition: transform 0.5s ease-in;
 }
@@ -90,9 +90,9 @@ nav ul a:hover {
     position: fixed;
     top: 5%;
     right: 5%;
-    border-left: 1vw solid transparent;
-    border-right: 1vw solid transparent;
-    border-top: 2vw solid  #ff0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 4vw solid  #ff0;
     transform: rotateX(180deg) translateY(-450%); 
     
 }
