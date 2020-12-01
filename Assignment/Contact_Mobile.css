@@ -1,14 +1,14 @@
 body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
     z-index: 0;
-    width: 100%;
+    
     height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-   
+    grid-template-rows: 10% 120% 5%;
     grid-template-areas: "header header"
                          "main main"
-                         "footer footer";
+                         "footer .";
 
 }
 
@@ -21,8 +21,8 @@ header{
 main {
     grid-area: main;
     display: grid;
-    grid-template-columns: 50% 50%;
-    
+    grid-template-rows: 40% 40%;
+    grid-gap: 10%;
     justify-items: center;
 }
 footer {
@@ -31,13 +31,14 @@ footer {
 }
 
 section{
-    margin-top: 3%;
+    margin-top: 5%;
     color: #f4d47c;
     background-color: #44444486;
     height: 100%;
     width: 80%;
     padding: 2%;
 }
+
 section h2 {
     text-align: center;
 }
@@ -49,8 +50,8 @@ section img {
 textarea{
     align-items: center;
     grid-gap: 0.5em;
-    width: 50%;
-    height: 30%;
+    width: 80%;
+    height: 50%;
 }
 nav {
     grid-area: nav;
