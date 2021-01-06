@@ -2,8 +2,9 @@ body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
     z-index: 0;
     display: grid;
-    height: 90vh;
-    grid-template-rows: 5% 90% 5%;
+    height: 90%;
+    font-family: 'Architects Daughter', cursive;
+    grid-template-rows: 5% 93% 2%;
     grid-template-columns: auto;
     grid-template-areas: "header header header"
                          "main main main"

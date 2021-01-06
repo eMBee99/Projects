@@ -9,7 +9,7 @@ body {
     grid-template-areas: "header header"
                          "main main"
                          "footer .";
-
+    font-family: 'Architects Daughter', cursive;
 }
 
 header{

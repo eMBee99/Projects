@@ -2,9 +2,10 @@ body {
     background: url(images/Abstract_Background.jpg) no-repeat center ;
     background-color: black;
     z-index: 0;
-    height: 100vh;
+    font-family: 'Architects Daughter', cursive;
+    
     display: grid;
-    grid-template-rows: 5% 93% 2%;
+    grid-template-rows: 1% 98.5% 0.5%;
     grid-template-columns: auto;
     grid-template-areas: "header header header"
                          "main main main"
@@ -32,8 +33,7 @@ section {
     
     color: #f4d47c;
     background-color: #44444486;
-    height: 100%;
-    
+    width: 90%;
     padding: 5%;
    
 }
